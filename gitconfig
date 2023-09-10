@@ -1,0 +1,14 @@
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Steven Torance
+	email = storance@gmail.com
+[pull]
+	rebase = false
+[merge]
+	tool = diffmerge
